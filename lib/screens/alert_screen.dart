@@ -35,7 +35,7 @@ class AlertScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Pantalla de Alertas'),
         centerTitle: true,
-        backgroundColor: Colors.indigoAccent,
+        backgroundColor: Colors.red,
       ),
       body: Center(
          child: FilledButton(
