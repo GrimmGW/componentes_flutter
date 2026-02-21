@@ -10,8 +10,6 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Pantalla principal'),
-        centerTitle: true,
-        backgroundColor: Colors.indigoAccent,
       ),
       body: ListView.separated(
         itemCount: AppRoutes.menuOptions.length,

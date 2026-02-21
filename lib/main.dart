@@ -1,4 +1,5 @@
 import 'package:componentes_flutter/routes/app_routes.dart';
+import 'package:componentes_flutter/themes/app_theme.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Componentes de Flutter',
       initialRoute: AppRoutes.intialRoute,
-      routes: AppRoutes.routes
+      routes: AppRoutes.routes,
+      theme: AppTheme.lightTheme
     );
   }
 }

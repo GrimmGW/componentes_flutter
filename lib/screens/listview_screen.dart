@@ -9,9 +9,7 @@ class ListviewScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Listview'),
-        centerTitle: true,
-        backgroundColor: Colors.indigoAccent,
+        title: const Text('Listview'),
       ),
       body: ListView(
         children: [
@@ -19,8 +17,8 @@ class ListviewScreen extends StatelessWidget {
           ...videojuegos.map(
             (juego) => ListTile(
               title: Text(juego),
-              leading: Icon(Icons.gamepad_rounded),
-              subtitle: Text('Soy un subtitulo'),
+              leading: const Icon(Icons.gamepad_rounded),
+              subtitle: const Text('Soy un subtitulo'),
             )
           )
         ],
