@@ -11,6 +11,9 @@ class AppRoutes {
     MenuOptions(route: '/alert', icon: Icons.warning_rounded, name: 'Pantalla de Alertas', screen: const AlertScreen()),
     MenuOptions(route: '/card', icon: Icons.card_membership_rounded, name: 'Pantalla de Cards', screen: const CardScreen()),
     MenuOptions(route: '/avatar', icon: Icons.person_2_rounded, name: 'Pantalla de Avatar', screen: const AvatarScreen()),
+    MenuOptions(route: '/dependencies', icon: Icons.star_rounded, name: 'Pantalla de Dependencias', screen: const DependenciesScreen()),
+    MenuOptions(route: '/container', icon: Icons.check_box_outline_blank_rounded, name: 'Pantalla de Container', screen: const ContainerScreen()),
+    MenuOptions(route: '/inputs', icon: Icons.input_rounded, name: 'Pantalla de Inputs', screen: const InputsScreen()),
   ];
 
   static Map<String, Widget Function(BuildContext)> routes = {
@@ -18,6 +21,9 @@ class AppRoutes {
     '/home' : (BuildContext context) => const HomeScreen(),
     '/alert' : (BuildContext context) => const AlertScreen(),
     '/card' : (BuildContext context) => const CardScreen(),
-    '/avatar' : (BuildContext context) => const AvatarScreen()
+    '/avatar' : (BuildContext context) => const AvatarScreen(),
+    '/dependencies' : (BuildContext context) => const DependenciesScreen(),
+    '/container' : (BuildContext context) => const ContainerScreen(),
+    '/inputs' : (BuildContext context) => const InputsScreen(),
   };
 }
