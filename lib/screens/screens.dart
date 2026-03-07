@@ -1,3 +1,4 @@
+export 'package:componentes_flutter/screens/slider_screen.dart';
 export 'package:componentes_flutter/screens/alert_screen.dart';
 export 'package:componentes_flutter/screens/avatar_screen.dart';
 export 'package:componentes_flutter/screens/card_screen.dart';
